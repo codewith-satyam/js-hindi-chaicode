@@ -36,7 +36,34 @@ const myFunction = function(){
     console.log("Hello World!!");
     
 }
-console.table([typeof score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId, bigInt, myFunction] ); // object
+// console.table([typeof score, scoreValue, isLoggedIn, outsideTemp, userEmail, id, anotherId, bigInt, myFunction] ); // object
+
+// +++++++++++++++++++++++++++++++
+
+// stack (primitive),   Heap (Non-primit
+
+
+let myyoutubeename = "codingvibz"
+
+let anothername = myyoutubeename
+anothername = "chaiaurcode"
+
+console.log(myyoutubeename);
+console.log(anothername);
+
+
+
+let userOne = {
+    email: "satyam@gmail.com",
+    upi: "sastyam@pzy"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@goggle.com"
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
@@ -44,5 +71,6 @@ console.table([typeof score, scoreValue, isLoggedIn, outsideTemp, userEmail, id,
 
 
 
- 
+
+
 
